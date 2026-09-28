@@ -15,10 +15,20 @@ For a content change, check factual provenance, Markdown links, whitespace and a
 
 ## Local checks
 
-Run from the repository root. The document tools use only Python's standard
-library and require Python 3.9 or newer (`Path.is_relative_to`). There is no
-package manifest, lockfile, application build, or configured general-purpose
-formatter/linter.
+Run from the repository root with Python 3.10 or newer, as required by the
+pinned CommonMark parser. The navigation checks use it to distinguish rendered
+links and headings from code examples. There is no application build or
+configured general-purpose formatter/linter.
+
+Create and activate a repository-local virtual environment, then install the
+pinned validation dependencies before running either checker or their fixtures.
+CI installs the same pins.
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r tools/requirements-workflow.txt
+```
 
 Static documentation and hygiene checks:
 
@@ -57,7 +67,3 @@ A consistent pending review snapshot is not evidence that delivery is complete.
 ## Continue
 
 Return to [INDEX.md](../../INDEX.md) and finish all routes relevant to the latest task before acting. After verification, update affected owning facts, REPORT and HANDOFFS.
-
-## Document checker setup
-
-The navigation checks use CommonMark parsing to distinguish rendered links from code examples. In a Python virtual environment, install the pinned validation dependencies with `python -m pip install -r tools/requirements-workflow.txt` before running the document checkers and their fixtures. CI installs the same pins.
