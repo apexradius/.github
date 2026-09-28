@@ -13,7 +13,9 @@
 
 Inspected main at `6d01f6d`. The source contains organization profile plus CONTRIBUTING, SECURITY and CODE_OF_CONDUCT defaults, README and architecture guide. No public GitHub rendering or contact-mailbox operation was checked in this reconstruction.
 
-The legacy guide still names Apex_Core for standards and depicts direct main pushes. Treat those as historical drift; current canonical governance is ApexOS and the applicable review path. For a new profile request, reconcile desired public positioning with current company records and verify rendered output only after approved publication.
+The legacy publication guidance has been replaced with pointers to the [owning contribution process](../../CONTRIBUTING.md#publishing-this-metadata-repository). For a new profile request, reconcile desired public positioning with current company records and verify rendered output only after approved publication.
+
+Brain and NotebookLM closeout updates remain pending and are owned by the parent portfolio closeout, not this repository's documentation phase. See [knowledge bindings](REFERENCES.md#knowledge-bindings) for destination constraints; do not infer a completed sync from prepared documentation.
 
 ## Continue
 

@@ -21,8 +21,7 @@ Combine all applicable routes; a security, data or release boundary adds its rou
 
 ## Project source map
 
-| Source | Context owner |
-| --- | --- |
+See [canonical public and company sources](docs/workflow/REFERENCES.md) for the original metadata source map, and [verification](docs/workflow/TESTING.md) for the document-checker interfaces.
 
 ## Domain glossary
 

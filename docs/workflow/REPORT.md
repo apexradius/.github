@@ -11,7 +11,7 @@
 | Why this approach? | Use standard GitHub Markdown surfaces and current company facts while keeping policy in ApexOS. |
 | Why it matters? | An agent can update public identity without inventing software architecture or unsupported commitments. |
 
-Evidence: **inspected**. The permanent entry now describes the actual organization-profile/defaults project, its original purpose and public content boundaries. Legacy Apex_Core/direct-main instructions are explicitly identified as stale. Current public rendering, inherited behavior across every repo and reporting-mailbox delivery remain unverified. No publication or message occurred.
+Evidence: **inspected**. The permanent entry now describes the actual organization-profile/defaults project, its original purpose and public content boundaries. Legacy Apex_Core/direct-main guidance has been corrected in its owners; publication mechanics live in [CONTRIBUTING](../../CONTRIBUTING.md#publishing-this-metadata-repository). Current public rendering, inherited behavior across every repo and reporting-mailbox delivery remain unverified. No publication or message occurred.
 
 ## Continue
 

@@ -11,7 +11,7 @@
 | Why this approach? | Use standard GitHub Markdown surfaces and current company facts while keeping policy in ApexOS. |
 | Why it matters? | An agent can update public identity without inventing software architecture or unsupported commitments. |
 
-This repository owns the GitHub organization profile and default community documents. It does not own application architecture or universal ApexOS doctrine. Preserve concise public-safe content and route product changes to the relevant repository. Old README/architecture diagrams say push main; current ApexOS requires a reviewable CI-verified path for shared/protected changes. Do not follow the stale direct-push illustration.
+This repository owns the GitHub organization profile and default community documents. It does not own application architecture or universal ApexOS doctrine. Preserve concise public-safe content and route product changes to the relevant repository. Follow the [owning contribution and publication process](../../CONTRIBUTING.md#publishing-this-metadata-repository).
 
 ## Continue
 

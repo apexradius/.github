@@ -34,13 +34,8 @@ flowchart TD
 
 ## Primary Workflow
 
-```mermaid
-flowchart TD
-    Edit([Edit metadata]) --> Review[Review rendered Markdown]
-    Review --> SecretCheck[Run secret scan]
-    SecretCheck --> Push[Push to main]
-    Push --> Render[GitHub renders profile/defaults]
-```
+Edit on a branch and follow the [contribution and publication process](CONTRIBUTING.md).
+Observe GitHub rendering after approved publication; local Markdown is not proof of live state.
 
 ---
 
@@ -55,10 +50,7 @@ flowchart TD
 
 ## Verification
 
-```bash
-git diff --check
-gitleaks detect --source . --no-banner --redact
-```
+See [verification commands and their limits](docs/workflow/TESTING.md).
 
 Confirm the rendered profile at `https://github.com/apexradius`.
 

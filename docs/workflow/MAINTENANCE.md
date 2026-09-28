@@ -11,7 +11,7 @@
 | Why this approach? | Use standard GitHub Markdown surfaces and current company facts while keeping policy in ApexOS. |
 | Why it matters? | An agent can update public identity without inventing software architecture or unsupported commitments. |
 
-Update profile positioning when accepted company strategy changes and review reporting contacts when ownership changes. Preserve default-versus-repository-specific scope. Repair outdated Apex_Core/direct-push prose only through the owning documentation change, without altering current release safeguards.
+Update profile positioning when accepted company strategy changes and review reporting contacts when ownership changes. Preserve default-versus-repository-specific scope. Keep the [owning contribution process](../../CONTRIBUTING.md#publishing-this-metadata-repository) authoritative; do not restore historical direct-push instructions.
 
 Record accepted public revision and observed rendering in the handoff, then update the relevant company knowledge summary if material. Do not add private company records to public Markdown or broad knowledge uploads.
 

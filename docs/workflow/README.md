@@ -11,7 +11,7 @@
 | Why this approach? | Use standard GitHub Markdown surfaces and current company facts while keeping policy in ApexOS. |
 | Why it matters? | An agent can update public identity without inventing software architecture or unsupported commitments. |
 
-Founded June 28 at `656bae3` with `profile/README.md`, then documented July 2 and extended July 5 with contribution, security and conduct defaults. The six tracked files form a small Markdown metadata project, not a software service.
+Founded June 28 at `656bae3` with `profile/README.md`, then documented July 2 and extended July 5 with contribution, security and conduct defaults. Those six original files form the public metadata baseline, not a software service. The current candidate also includes workflow context, Python document checkers and their fixtures, and GitHub Actions validation.
 
 The profile positions Apex Radius around AI operating systems, revenue infrastructure and production automation and links the company/founder. Company factual claims must be checked against the current organization profile (optional owner-machine reference: `/Users/apex/ApexRadius/Companies/Apex-Radius-Ltd/ABOUT.md`), not inferred from broad marketing language. Runtime policy remains in ApexOS.
 

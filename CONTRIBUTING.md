@@ -12,3 +12,12 @@ contribution queue.
 - Describe what changed and why in the PR body.
 
 For security issues, do not open a public issue — see [SECURITY.md](SECURITY.md).
+
+## Publishing this metadata repository
+
+Use a focused branch and pull request, not a direct push to `main`. Follow the
+[verification guide](docs/workflow/TESTING.md), obtain independent review, and
+merge only after clean AXI validation and exact-head CI without skips or overrides.
+The delivery executor owns publication; documentation checks do not authorize it.
+After approved publication, observe the affected GitHub rendering separately.
+Recovery for a qualified merge is a reviewed revert PR, never a force reset.
