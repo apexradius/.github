@@ -16,7 +16,7 @@ This Markdown-only repository supplies the organization profile and community de
 
 ## Read before acting
 
-Read applicable repository instructions, then [workflow AGENTS](docs/workflow/AGENTS.md). Follow README -> HANDOFFS -> SECURITY -> SECRETS metadata -> PRD -> ARCHITECTURE -> DESIGN -> WIREFRAMES -> CODE_STYLE -> DATABASE -> API -> TESTING -> MAINTENANCE -> CAPABILITIES -> REFERENCES -> REPORT. Each file links to the next. Inspect primary sources when the requested task depends on their details.
+Read applicable repository instructions, then [INDEX.md](INDEX.md), its mandatory context and every applicable task route. Inspect the canonical sources for the requested change.
 
 The newest user request supplies the task. This is enduring context, not a standing instruction to repeat an audit, implement an old roadmap or publish anything. If no specific task is given, reconcile the relevant handoff read-only and identify the next useful action. Never invent historical decisions or treat an implementation inference as an approved requirement.
 
@@ -26,4 +26,4 @@ Use init-studio for a material scope or requirements change, web-studio/api-stud
 
 Before implementation, state the requested outcome, fixed decisions, owning source, affected contract and evidence needed. Preserve concurrent work. Ask only when a material unresolved choice cannot be recovered from the records. Afterward update canonical facts and the product handoff, then the exact registered knowledge destinations with source/date and readback. Distinguish local, provider and published evidence.
 
-Next: [workflow AGENTS](docs/workflow/AGENTS.md).
+Next: [INDEX.md](INDEX.md).
