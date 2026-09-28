@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "complete": false,
+  "scope": "GitHub organization metadata: portable document navigation and source-bound review continuity; no product runtime changes.",
+  "reviewed_at": "2026-09-28T15:22:01.524886+00:00",
+  "source_revision": "6d01f6decebfdee281278a644237a2e57dc8f153",
+  "files": {
+    "README.md": "f4e7e1139b379c3853756731807ded14dd1ec36d7d73835ff16ab157f03747c6",
+    "prompt.md": "9d33e3926b164d7c0c2ddcf1df9e9e64654b756d2f8930d5fadbc791df92af23",
+    "INDEX.md": "77e727f8f5e433ea79c1f931d9f6c8ee96a1b5c5edd5d616d68b036f2a03603c",
+    "docs/workflow/HANDOFFS.md": "08a6e327042724aa435d9f5ad068ebcec696afb023b76c8772a926982c4b4384"
+  },
+  "stages": {
+    "local": {
+      "required": true,
+      "status": "pending",
+      "evidence": "Run tracked navigation, review consistency, checker fixtures and repository-required checks before delivery."
+    },
+    "ci": {
+      "required": true,
+      "status": "pending",
+      "evidence": "Current candidate hosted checks not yet observed."
+    },
+    "merge": {
+      "required": true,
+      "status": "pending",
+      "evidence": "Current candidate not delivered."
+    },
+    "deployment": {
+      "required": false,
+      "status": "not_applicable",
+      "evidence": "Documentation-only scope; no product release authorized by this record."
+    },
+    "knowledge": {
+      "required": true,
+      "status": "pending",
+      "evidence": "Canonical documentation prepared; portfolio summary closeout remains pending."
+    }
+  }
+}

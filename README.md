@@ -65,3 +65,8 @@ Confirm the rendered profile at `https://github.com/apexradius`.
 ## Reference
 
 - [Architecture](docs/architecture.md)
+
+
+## Project context for new tasks
+
+Read [prompt.md](prompt.md), then [INDEX.md](INDEX.md), for project-specific decisions, task routes and current handoff. Historical examples do not select the current task.
