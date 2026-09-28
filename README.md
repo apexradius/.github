@@ -44,7 +44,7 @@ Observe GitHub rendering after approved publication; local Markdown is not proof
 | Path | Purpose |
 |---|---|
 | `profile/README.md` | Public Apex Radius organization profile text. |
-| `docs/architecture.md` | Repository role and workflow diagram. |
+| `docs/architecture.md` | Repository role, component map and publication-process reference. |
 
 ---
 

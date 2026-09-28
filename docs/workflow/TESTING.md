@@ -61,7 +61,8 @@ python3 -m unittest discover -s tools -p 'test_*check.py'
 ```
 
 [Project context CI](../../.github/workflows/project-context.yml) runs both document
-checkers and these fixtures on pull requests and pushes to `main` or `master`.
+checkers and these fixtures on pull requests and branch pushes selected by its
+`on` configuration; that workflow owns the current branch list.
 A consistent pending review snapshot is not evidence that delivery is complete.
 
 ## Continue
