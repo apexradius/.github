@@ -45,7 +45,10 @@ For committed changes, give `git diff --check` the reviewed base and candidate r
 
 `check_workflow.py [root] [--tracked] [--budget WORDS]` checks the required
 workflow files, local navigation and a default 3,500-word core reading budget.
-`--tracked` also checks that linked files are tracked or staged. It does not fetch
+When a root `README.md` exists, its local links are checked too, including path
+case, repository containment and Markdown heading fragments. Its absence is
+allowed, and it does not add to the core reading budget.
+`--tracked` also checks that checked documents and linked files are tracked or staged. It does not fetch
 external links, inspect live GitHub rendering, or establish agent comprehension.
 
 `check_review.py [root]` checks the review snapshot's shape, file hashes,
