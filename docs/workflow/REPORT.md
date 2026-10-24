@@ -16,3 +16,19 @@ Evidence: **inspected**. The permanent entry now describes the actual organizati
 ## Continue
 
 Return to [INDEX.md](../../INDEX.md) and finish all routes relevant to the latest task before acting. After verification, update affected owning facts, REPORT and HANDOFFS.
+
+
+## 2026-10-24: concise project guidance
+
+Project startup now routes to task-relevant documents. Product-specific constraints
+remain in AGENTS; implementation, verification and release detail stays in its owning
+documents. This documentation-only change preserves runtime code and existing product
+acceptance limits. The owner authorized reviewed PR delivery after applicable checks
+and independent review; it does not authorize production deployment.
+
+Validation: 25 existing document-checker fixtures passed, along with tracked
+navigation and applicable review-snapshot checks. Runtime source is unchanged.
+
+Independent read-only GLM-5.3/high review checked retained project constraints and
+the owning document routes. Findings relevant to this candidate were resolved and
+the final navigation/review checks passed; runtime source remains unchanged.
