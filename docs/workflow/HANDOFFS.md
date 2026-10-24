@@ -20,3 +20,12 @@ Brain and NotebookLM closeout updates remain pending and are owned by the parent
 ## Continue
 
 Return to [INDEX.md](../../INDEX.md) and finish all routes relevant to the latest task before acting. After verification, update affected owning facts, REPORT and HANDOFFS.
+
+
+## 2026-10-24: concise project guidance
+
+Project startup now routes to task-relevant documents. Product-specific constraints
+remain in AGENTS; implementation, verification and release detail stays in its owning
+documents. This documentation-only change preserves runtime code and existing product
+acceptance limits. The owner authorized reviewed PR delivery after applicable checks
+and independent review; it does not authorize production deployment.

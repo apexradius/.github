@@ -16,14 +16,10 @@ This Markdown-only repository supplies the organization profile and community de
 
 ## Read before acting
 
-Read applicable repository instructions, then [INDEX.md](INDEX.md), its mandatory context and every applicable task route. Inspect the canonical sources for the requested change.
+Read applicable repository instructions, then [INDEX.md](INDEX.md), only the routes relevant to the request. Inspect the canonical sources for the requested change.
 
 The newest user request supplies the task. This is enduring context, not a standing instruction to repeat an audit, implement an old roadmap or publish anything. If no specific task is given, reconcile the relevant handoff read-only and identify the next useful action. Never invent historical decisions or treat an implementation inference as an approved requirement.
 
-## Select the conductor
+## Task workflow
 
-Use init-studio for a material scope or requirements change, web-studio/api-studio for an applicable implementation, design-studio for a user experience change, debug-studio for diagnosis, and grow-studio for an authorized growth task. Load the actual installed skill and use only the stages relevant to this project's surface. ApexOS law and native Pi/Herdr or distilled CrewOS execution routes do not change product architecture. A no-mistakes AXI run must retain its actual scope, custody and observed evidence; the skill name is not a completion receipt.
-
-Before implementation, state the requested outcome, fixed decisions, owning source, affected contract and evidence needed. Preserve concurrent work. Ask only when a material unresolved choice cannot be recovered from the records. Afterward update canonical facts and the product handoff, then the exact registered knowledge destinations with source/date and readback. Distinguish local, provider and published evidence.
-
-Next: [INDEX.md](INDEX.md).
+Select relevant skills from the active runtime's current catalog and instructions when the task requires them. This document does not activate a crew, pipeline, provider, or release.

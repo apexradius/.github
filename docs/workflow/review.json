@@ -1,30 +1,32 @@
 {
   "version": 1,
   "complete": false,
-  "scope": "GitHub organization metadata: portable document navigation and source-bound review continuity; no product runtime changes.",
-  "reviewed_at": "2026-09-28T17:19:37.624185+00:00",
-  "source_revision": "6d01f6decebfdee281278a644237a2e57dc8f153",
+  "scope": "Concise task-directed project guidance; documentation-only delivery with product acceptance limits preserved.",
+  "reviewed_at": "2026-10-24T07:54:19.456021+00:00",
+  "source_revision": "542fd2a55b1ac446b1a15312547897a5d77323f3",
   "files": {
-    "README.md": "9dc66c38e4a5901ce3a93060c9fad7400b685a42c5d24fdf61ee2fb439642f8a",
-    "prompt.md": "75ee722644b197a2d34662a8e9e94557731c1e29e0999fcfe09f704e4224e5a4",
-    "INDEX.md": "b61de128fe24b88418a7795382e886b665c93dbd568569dae8e66b83ba58e1a7",
-    "docs/workflow/HANDOFFS.md": "5c1672e215853bf7e1d5ebd957c4521c5231ab48c59c5d90e5a2c56a5e1bf747"
+    "README.md": "8d00df378a3d942c0299be7e837810037f2fe601e701ca368988c77986065c5f",
+    "prompt.md": "7c12d5e0bda3ad06e9841fa0b20ce0c40a8b68d1201e9147b16d41ba257a1c06",
+    "INDEX.md": "b45d3ae68a880a2159dd73946463149104f27e0de0a8b7403a44c3fc3ff7699d",
+    "docs/workflow/HANDOFFS.md": "f4bb555b16de6fcf26d03bdd1ccaadf9e1e246a03d46c770502aa4ca147e030f",
+    "docs/workflow/AGENTS.md": "4ca0cab58c1ec70f936b08952fd7d8816fe75ea01eb5a738dba7c68f392b0723",
+    "docs/workflow/REPORT.md": "80c48831ff19adc05b90d255343c9e0bafcea8373fdfd8b3c5eead17b0b73942"
   },
   "stages": {
     "local": {
       "required": true,
-      "status": "pending",
-      "evidence": "Run tracked navigation, review consistency, checker fixtures and repository-required checks before delivery."
+      "status": "passed",
+      "evidence": "25 existing document-checker fixtures, tracked navigation and review-snapshot consistency passed. Runtime source unchanged."
     },
     "ci": {
       "required": true,
       "status": "pending",
-      "evidence": "Current candidate hosted checks not yet observed."
+      "evidence": "Documentation candidate awaiting its current validation, independent review and PR delivery."
     },
     "merge": {
       "required": true,
       "status": "pending",
-      "evidence": "Current candidate not delivered."
+      "evidence": "Documentation candidate awaiting its current validation, independent review and PR delivery."
     },
     "deployment": {
       "required": false,
@@ -33,8 +35,8 @@
     },
     "knowledge": {
       "required": true,
-      "status": "pending",
-      "evidence": "Canonical documentation prepared; portfolio summary closeout remains pending."
+      "status": "passed",
+      "evidence": "Canonical task routing and handoff updated; external knowledge publication outside scope."
     }
   }
 }
